@@ -1,0 +1,126 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: 50px 200px 100px 100px 150px 150px 100px ;
+    
+    
+}
+
+.grid-container > div {
+
+  
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+:root {
+    --first-color: rgba(15, 22, 41)
+
+;
+    --secondary-color: rgba(239, 60, 79)
+
+;
+    --third-color: rgba(76, 134, 198)
+;
+    --fourth-color: rgba(36, 52, 75)
+;
+    --fifth-color: rgba(255, 255, 255)
+;
+    --sixth-color:rgba(193, 228, 230)
+;
+    --seventh-color: rgba(77, 189, 151)
+;
+    --eight-color: rgba(255, 209, 105)
+;
+}
+
+#h1{
+
+    text-align: center;
+}
+
+#colorLetra {
+
+
+    color: white;
+
+}
+
+#colorLetra2{
+
+    color: black;
+}
+
+
+
+
+.div1 {
+
+    display: flex;
+
+
+    background-color: var(--first-color);
+
+}
+
+.div2 {
+    display: flex;
+    grid-column: span 2;
+
+    background-color: var(--secondary-color);
+}
+
+.div3 {
+    display: flex;
+
+    background-color: var(--third-color);
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.div4 {
+    display: flex;
+
+    background-color: var(--fourth-color);
+
+    grid-row: span 2;
+   
+}
+
+.div5 {
+    display: flex;
+
+    background-color: var(--fifth-color);
+
+    grid-row: span 2;
+}
+
+.div6 {
+    display: flex;
+
+    background-color: var(--sixth-color);
+    grid-column: span 1;
+}
+
+.div7 {
+    display: flex;
+
+    background-color: var(--seventh-color);
+
+    
+
+
+}
+
+.div8 { 
+    display: flex;
+
+    background-color: var(--eight-color);
+    
+    grid-column: span 3 ;
+
+}
+
